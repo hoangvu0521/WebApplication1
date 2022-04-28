@@ -1,0 +1,609 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+.hb_login{
+	padding: 130px 0;
+	 background: #f0f2f5;
+}
+.hb_logins{
+	/*align-items: center;*/
+}
+.hb_login_left{
+	padding-top: 75px;
+	padding-left: 20px;
+}
+.hb_login_images{
+	margin-bottom: 0;
+	padding: 15px 0;
+}
+.hb_login_images img{
+	height: 106px;
+	margin: -28px;
+}
+.hb_login_slogan{
+	font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    max-width: 500px;
+}
+.hb_login_form{
+	align-items: center;
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	box-sizing: border-box;
+	padding: 20px 15px 28px;
+}
+.hb_login_form form{
+	width: 100%;
+	display: block;
+}
+.hb_login_form input{
+	width: 100%;
+	font-size: 17px;
+	padding: 14px 16px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	background: #FFFFFF;
+	border: 1px solid #dddfe2;
+	color: #1d2129;
+	vertical-align: middle;
+}
+.hb_login_form input:last-child{
+}
+.hb_login_form input:focus{
+	outline: none !important;
+	border-color: #1877f2;
+	box-shadow: 0 0 0 2px #e7f3ff;
+	caret-color: #1877f2;
+}
+.hb_login_form .hb_button{
+	width: 100%;
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	margin-top: 6px;
+	outline: none;
+}
+.hb_link{
+	margin-top: 16px;
+	text-align: center;
+}
+.hb_link a{
+	color: #1877f2;
+	font-size: 14px;
+	font-weight: 500;
+}
+.hb_link a:hover{
+	text-decoration: underline;
+}
+.hb_hr{
+	align-items: center;
+	border-bottom: 1px solid #dadde1;
+	display: flex;
+	margin: 20px 16px;
+	text-align: center;
+}
+.hb_button_news{
+	padding-top: 6px;
+	text-align: center;
+	line-height: 48px;
+}
+.hb_button_news a{
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	font-size: 17px;
+	padding: 12px 16px;
+	background-color: #42b72a;
+	color: #fff;
+}
+.hb_mess{
+	border-top: none;
+	color: #1c1e21;
+	font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+.hb_mess a{
+	font-weight: 600;
+	font-size: 14px;
+	color: #1c1e21;
+}
+.hb_login_right{
+	max-width: 400px;
+	margin: 0 auto;
+}
+footer{
+	padding: 30px 0;
+}
+footer ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.hb_language{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+/*.hb_language li:first-child {
+    padding-left: 0;
+}*/
+.hb_language li{
+	padding-left: 10px;
+	font-size: 12px;
+}
+.hb_language li a{
+	font-size: 12px;
+	color: #1c1e21;
+	outline: none;
+	text-decoration: none;
+}
+.hb_language li a span{
+	font-size: 14px;
+	padding: 0 10px;
+	font-weight: bold;
+	border: 1px solid #dddfe2;
+	outline: none;
+	text-decoration: none;
+	background: #dddfe2;
+}
+#contentCurve{
+	border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.sp_8s3dp67SKVi {
+    background-image: url(../images/52vld7hrDEO.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.sp_8s3dp67SKVi.sx_bf5903 {
+    width: 16px;
+    height: 16px;
+    background-position: -106px -286px;
+}
+.img {
+   /* position: absolute;*/
+    top: 1px;
+    vertical-align: middle;
+}
+.hb_links_list{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1.6;
+}
+/*.hb_links_list li:first-child{
+	padding-left: 0;
+}*/
+.hb_links_list li{
+	padding-left: 10px;
+	font-size: 12px;
+}
+.hb_links_list a{
+	font-size: 12px;
+	color: #1c1e21;
+	outline: none;
+	text-decoration: none;
+}
+.hb_copyright{
+	font-size: 11px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.hb_copyright_mobile{
+	font-size: 11px;
+	margin-top: 20px;
+	margin-left: 10px;
+	display: none;
+}
+.hb_menu_mobile{
+	display: none;
+	align-items: center;
+	justify-content: center;
+	font-size: 9px;
+}
+.hb_menu_mobile li{
+	padding:0 8px;
+	position: relative;
+}
+.hb_menu_mobile li a{
+	color: #1c1e21;
+}
+.hb_menu_mobile li:before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: #1c1e21;
+    border-radius: 50%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.hb_menu_mobile li:first-child:before{
+	display: none;
+}
+.hb_app_mobile{
+	display: none;
+}
+.ib .img.l {
+    margin: 0 8px;
+}
+.ib .l {
+    display: inline-block;
+    margin-right: 4px;
+}
+.sp_xm9DDmY7HAL_3x {
+    background-image: url(../images/cvj8rfO8RgU.png);
+    background-size: 19px 67px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.sp_xm9DDmY7HAL_3x.sx_f30d37 {
+    width: 18px;
+    height: 32px;
+    background-position: 0 0;
+}
+i.img {
+    -webkit-user-select: none;
+}
+.ib{
+	display: none;
+	flex: 1;
+	align-items: center;
+	background-color: #eceff5;
+	padding: 10px 0;
+}
+.ib .c {
+    flex: 1;
+    min-width: 0;
+    line-height: 1.1;
+}
+.fcl {
+    color: #3b5998;
+}
+/*-----------------------------------------------------------------------------*/
+@media screen and (min-device-width: 1801px) and (max-device-width: 5000px) {
+	.hb_login .hb_link_app {
+		display: none;
+	}
+}
+
+@media screen and (min-device-width: 1600px) and (max-device-width: 1800px) {
+	.hb_login .hb_link_app {
+		display: none;
+	}
+}
+
+@media screen and (max-device-width: 1536px) and (min-device-width: 1440px) {
+	.hb_login .hb_link_app {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+	.hb_login .hb_link_app {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1199px){
+	.hb_login .hb_link_app {
+		display: none;
+	}
+}	
+
+@media only screen and (max-width: 1119px) and (min-width: 1080px){
+	hb_login .hb_link_app {
+		display: none;
+	}
+	.hb_login_slogan{
+		display: none;
+	}
+	.hb_login_left {
+		padding-top: 0;
+		padding-left: 0;
+	}
+	.hb_login_images{
+		padding:0;
+		text-align: center;
+	}
+	.hb_login_images img {
+		height: 55px;
+		margin: 0;
+	}
+	.hb_login{
+		padding: 0 0 30px;
+		background: transparent;
+	}
+	.hb_button_news{
+		margin-top: 0;
+	}
+	.hb_login_form{
+		padding: 0;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	.hb_login_form input{
+		background: #f0f0f0;
+		padding: 10px 16px;
+		border-radius: 3px;
+		font-size: 14px;
+	}
+	.hb_button{
+		border-radius: 3px;
+		font-size: 18px;
+		line-height: 45px;
+		padding: 0 15px;
+		margin-top: 0;
+	}
+	.hb_hr{
+		margin: 10px 15px;
+	}
+	.hb_login_form input:focus{
+		border-color:#1d2129;
+	}
+	.hb_button_news a{
+		font-size: 12px;
+	}
+	.hb_mess{
+		display: none;
+	}
+	#contentCurve,.hb_links_list,.hb_copyright{
+		display: none;
+	}
+	.hb_menu_mobile{
+		display: flex;
+	}
+	.hb_copyright_mobile{
+		display: block;
+		margin-top: 0;
+		text-align: center;
+	}
+	.hb_language {
+		display: block;
+		column-count: 2;
+		text-align: center;
+		line-height: 1.6;
+		margin-bottom: 10px;
+	}
+	.hb_app_mobile{
+		display: block;
+	}
+	.hb_login_form{
+		max-width: 416px;
+		margin: 0 auto;
+	}
+	.hb_login_left,.hb_login_right {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.ib{
+		display: flex;
+	}
+}
+@media only screen and (max-width: 1079px) and (min-width: 992px) {
+	.hb_login_slogan{
+		display: none;
+	}
+	.hb_login_left {
+		padding-top: 0;
+		padding-left: 0;
+	}
+	.hb_login_images{
+		padding:0;
+		text-align: center;
+	}
+	.hb_login{
+		padding:30px 0;
+		background: transparent;
+	}
+	.hb_login_images img {
+		height: 55px;
+		margin: 0;
+	}
+	.hb_button_news{
+		margin-top: 0;
+	}
+	.hb_login_form{
+		padding: 0;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	.hb_login .hb_link_app {
+		display: none;
+	}
+	.hb_login_form input{
+		background: #f0f0f0;
+		padding: 10px 16px;
+		border-radius: 3px;font-size: 14px;
+	}
+	.hb_button{
+		border-radius: 3px;
+		font-size: 18px;
+		line-height: 45px;
+		padding: 0 15px;
+		margin-top: 0;
+	}
+	.hb_hr{
+		margin: 10px 15px;
+	}
+	.hb_login_form input:focus{
+		border-color:#1d2129;
+	}
+	.hb_button_news a{
+		font-size: 12px;
+	}
+	.hb_mess{
+		display: none;
+	}
+	#contentCurve,.hb_links_list,.hb_copyright{
+		display: none;
+	}
+	.hb_menu_mobile{
+		display: flex;
+	}
+	.hb_copyright_mobile{
+		display: block;
+		margin-top: 0;
+		text-align: center;
+	}
+	.hb_language {
+		display: block;
+		column-count: 2;
+		text-align: center;
+		line-height: 1.6;
+		margin-bottom: 10px;
+	}
+	.ib{
+		display: flex;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.hb_login_left,.hb_login_right {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.hb_login_form{
+		max-width: 416px;
+		margin: 0 auto;
+	}
+	.hb_login .hb_link_app {
+		display: none;
+	}
+	.hb_login_form input{
+		padding: 12px !important;
+	}
+}
+@media screen and (max-device-width: 992px) {
+	.hb_login_slogan{
+		display: none;
+	}
+	.hb_login_left {
+		padding-top: 0;
+		padding-left: 0;
+	}
+	.hb_login_images{
+		padding:0;
+		text-align: center;
+	}
+	.hb_login_images img {
+		height: 55px;
+		margin: 0;
+	}
+	.hb_login{
+		padding: 0 0 30px;
+		background: transparent;
+	}
+	.hb_button_news{
+		margin-top: 0;
+	}
+	.hb_login_form{
+		padding: 0;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	.hb_login_form input{
+		background: #f0f0f0;
+		padding: 10px 16px;
+		border-radius: 3px;
+		font-size: 14px;
+	}
+		.hb_login_form .hb_button {
+			border-radius: 3px;
+			font-size: 18px;
+			line-height: 45px;
+			padding: 0 15px;
+			margin-top: 0;
+		}
+	.hb_hr{
+		margin: 10px 15px;
+	}
+	.hb_login_form input:focus{
+		border-color:#1d2129;
+	}
+	.hb_button_news a{
+		font-size: 12px;
+	}
+	.hb_mess{
+		display: none;
+	}
+	#contentCurve,.hb_links_list,.hb_copyright{
+		display: none;
+	}
+	.hb_menu_mobile{
+		display: flex;
+	}
+	.hb_copyright_mobile{
+		display: block;
+		margin-top: 0;
+		text-align: center;
+	}
+	.hb_language {
+		display: block;
+		column-count: 2;
+		text-align: center;
+		line-height: 1.6;
+		margin-bottom: 10px;
+	}
+	.hb_app_mobile{
+		display: block;
+	}
+	.ib{
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+
+}
+
+@media screen and (max-device-width: 576px) {
+
+}
+
+@media screen and (max-device-width: 414px) {
+	.ib{
+		margin-bottom: 20px;
+	}
+	.hb_menu_mobile{
+		font-size: 12px;
+	}
+	.hb_language{
+		line-height: 2.6;
+	}
+}
+
+@media screen and (max-device-width: 375px) {
+	.hb_language{
+		line-height: 1.6;
+	}
+}
+@media screen and (max-device-width: 360px) {
+	.ib{
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-device-width: 320px) {
+
+}

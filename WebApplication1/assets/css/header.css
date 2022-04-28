@@ -1,0 +1,67 @@
+﻿a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#ext-element-1 {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/* Main */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#App\.LoginForm_Container {
+    padding: 130px;
+    background: #f0f2f5;
+}
+/* Link */
+#LoginForm-innerCt {
+    text-align: center;
+}
+#nethyperlink-1009 {
+    flex: 1;
+    align-items: center;
+    background-color: #eceff5;
+    padding: 10px 0;
+    display: none;
+}
+#ext-element-4 {
+    margin: 0 8px;
+    width: 18px;
+    height: 32px;
+    background-position: 0 0;
+}
+#ext-element-3 {
+    color: #3b5998;
+}
+/* form login */
+#form-1010-innerCt {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#form-1011,
+#form-1014 {
+    padding-top: 75px;
+    padding-left: 20px;
+}
+
+#email-triggerWrap,
+#pass-triggerWrap {
+    border: none;
+}

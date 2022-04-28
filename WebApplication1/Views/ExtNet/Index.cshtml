@@ -1,0 +1,317 @@
+@using Ext.Net;
+@using Ext.Net.MVC;
+
+@model WebApplication1.Models.ExtNetModel
+
+@{
+    Layout = null;
+    var X = Html.X();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fff" />
+    <title>login facebook</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/assets/css/lib/bootstrap.min.css">
+    @*<link rel="stylesheet" type="text/css" href="/assets/css/home.css">*@
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+</head>
+<body>
+    @(Html.X().ResourceManager())
+
+    @(
+            X.FormPanel()
+                .ID("LoginForm")
+                .Cls("container")
+                .Items(
+                    X.Hyperlink()
+                        .Text("Tải Facebook dành cho Android và lướt xem nhanh hơn.").Cls("hb_link_app")
+                        .Icon(Icon.Smartphone)
+                        .IconCls("l img sp_xm9DDmY7HAL_3x sx_f30d37 hb_app_mobile")
+                )
+                .Items(
+                    X.FormPanel()
+                        .Cls("hb_logins row")
+                        .Items(
+                            X.FormPanel()
+                                .Items(
+                                    X.Image()
+                                        .Src("/assets/images/logo.svg")
+                                        .Cls("hb_login_images"),
+                                    X.Label()
+                                        .Text("Facebook giup ban ket noi va chia se voi moi nguoi trong cuoc song cua ban.")
+                                        .Cls("hb_login_slogan")
+                                )
+                                .Cls("hb_login_left col-lg-6 col-md-6 col-12"),
+                            X.FormPanel()
+                                .Items(
+                                    X.FormPanel()
+                                        .DefaultAnchor("")
+                                        .Frame(false)
+                                        .BodyBorder(0)
+                                        .Items(
+                                            X.TextField()
+                                                .AllowBlank(true)
+                                                .Name("user")
+                                                .EmptyText("Email hoac so dien thoai")
+                                                .ID("email_text"),
+                                            X.TextField()
+                                                .AllowBlank(true)
+                                                .Name("pass")
+                                                .EmptyText("Mat khau")
+                                                .InputType(Ext.Net.InputType.Password)
+                                                .ID("pass_text")
+                                                .Cls("hb_pass"),
+                                            X.Button()
+                                                .Text("Dang nhap")
+                                                .Cls("hb_button"),
+                                            X.Hyperlink()
+                                                .Text("Quen mat khau?")
+                                                .Cls("hb_link"),
+                                            X.Button()
+                                                .Text("Tao tai khoan moi")
+                                                .Cls("hb_button_news")
+                                        ),
+                                    X.Hyperlink()
+                                        .Text("Tao trang danh cho nguoi noi tieng, thuong hieu hoac doanh nghiep.")
+                                        .Cls("hb_mess")
+                                )
+                                .Cls("hb_login_right col-lg-6 col-md-6 col-12")
+                        ).Cls("hb_logins row"),
+                    X.GridPanel()
+                        .Items(
+                            X.TreePanel()
+                            .Root(
+                                X.Node()
+                                    .Expanded(true)
+                                    .Children(
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true),
+                                        X.Node().Text("Cycle.js").Leaf(true)
+                                    )
+                            )
+                        )
+                )
+    )
+    @(
+        X.FormPanel()
+            .ID("FooterForm")
+            .Cls("container")
+            .Items(
+                X.Hyperlink()
+                    .Text("Tieng Viet").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("English (UK)").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("中文(台灣)").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("한국어").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("日本語").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Français (France)").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("ภาษาไทย").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Español").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Português (Brasil)").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Deutsch").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Italiano").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("+").Cls("hb_link_app")
+            )
+            .Items(
+                X.Hyperlink()
+                    .Text("Dang ky").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Dang nhap").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Messenger").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Facebook Lite").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Watch").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Dia diem").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Tro choi").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Marketplace").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Facebook Pay").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Oculus").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Portal").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Instagram").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Bulletin").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Dia phuong").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Chien dich gay quy").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Dich vu").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Trung tam thong tin bo phieu").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Nhom").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Gioi thieu").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Tao quang cao").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Tao trang").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Nha phat trien").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Tuyen dung").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Quyen rieng tu").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Cookie").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Lua chon quang cao").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Dieu khoan").Cls("hb_link_app"),
+                X.Hyperlink()
+                    .Text("Tro giup").Cls("hb_link_app")
+            )
+            .Items(
+                X.Hyperlink()
+                    .Text("Meta © 2022").Cls("hb_link_app")
+            )
+    )
+
+    @*<div class="hb_login">
+        <a href="#" class="hb_link_app">
+            <div class="ib cc">
+                <i class="l img sp_xm9DDmY7HAL_3x sx_f30d37 hb_app_mobile"></i>
+                <div class="c"><span class="fcl">Tải Facebook dành cho Android và lướt xem nhanh hơn.</span></div>
+            </div>
+        </a>
+
+        <div class="container">
+            <div class="hb_logins row">
+                <div class="hb_login_left col-lg-6 col-md-6 col-12">
+
+                    <figure class="hb_login_images">
+                        <img src="/assets/images/logo.svg" alt="" class="img-fluid">
+                    </figure>
+                    <div class="hb_login_slogan">
+                        Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn.
+                    </div>
+                </div>
+                <div class="hb_login_right col-lg-6 col-md-6 col-12">
+                    <div class="hb_login_form">
+                        <form>
+                            <input type="text" class="hb_email" name="email" id="email" placeholder="Email hoặc số điện thoại" autofocus="1" aria-label="Email hoặc số điện thoại">
+
+                            <input type="password" class="hb_pass" name="pass" id="pass" placeholder="Mật khẩu" aria-label="Mật khẩu">
+
+                            <button value="" class="hb_button" name="login" type="submit">Đăng nhập</button>
+                            <div class="hb_link">
+                                <a href="#">Quên mật khẩu?</a>
+                            </div>
+                            <div class="hb_hr"></div>
+                            <div class="hb_button_news">
+                                <a href="#">Tạo tài khoản mới</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="hb_mess">
+                        <a href="" class="hb_link_mess">Tạo Trang</a> dành cho người nổi tiếng, thương hiệu hoặc doanh nghiệp.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+    @*<footer>
+        <div class="container">
+            <ul class="hb_language">
+                <li>Tiếng Việt</li>
+                <li><a href="#">English (UK)</a></li>
+                <li><a href="#">中文(台灣)</a></li>
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">Français (France)</a></li>
+                <li><a href="#">ภาษาไทย</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">Português (Brasil)</a></li>
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">Italiano</a></li>
+                <li><a href="#"><span>+</span></a></li>
+            </ul>
+            <div id="contentCurve"></div>
+            <ul class="hb_links_list">
+                <li><a href="#">Đăng ký</a></li>
+                <li><a href="#">Đăng nhập</a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">LiteWatch</a></li>
+                <li><a href="#">Địa điểm</a></li>
+                <li><a href="#">Trò chơi</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Facebook Pay</a></li>
+                <li><a href="#">Oculus</a></li>
+                <li><a href="#">Portal</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Bulletin</a></li>
+                <li><a href="#">Địa phương</a></li>
+                <li><a href="#">Chiến dịch gây quỹ</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Trung tâm thông tin bỏ phiếu</a></li>
+                <li><a href="#">Nhóm</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Tạo quảng cáo</a></li>
+                <li><a href="#">Tạo Trang</a></li>
+                <li><a href="#">Nhà phát triển</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Quyền riêng tư</a></li>
+                <li><a href="#">Cookie</a></li>
+                <li><a href="#">Lựa chọn quảng cáo <i class="img sp_8s3dp67SKVi sx_bf5903"></i></a></li>
+                <li><a href="#">Điều khoản</a></li>
+                <li><a href="#">Trợ giúp</a></li>
+                <li><a href="#">Cài đặt</a></li>
+                <li><a href="#">Nhật ký hoạt động</a></li>
+            </ul>
+            <div class="hb_copyright">
+                <span> Meta © 2022</span>
+            </div>
+            <ul class="hb_menu_mobile">
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Trợ giúp</a></li>
+                <li><a href="#">Xem thêm</a></li>
+            </ul>
+            <div class="hb_copyright_mobile">
+                <span> Facebook. Inc.</span>
+            </div>
+        </div>
+    </footer>*@
+
+    <script type="text/javascript" src="/assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/lib/jquery.meanmenu.min.js"></script>
+    <script type="text/javascript" src="/assets/js/lib/bootstrap.min.js"></script>
+
+</body>
+</html>

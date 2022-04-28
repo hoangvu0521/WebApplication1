@@ -1,0 +1,401 @@
+@media screen and (min-device-width: 1801px) and (max-device-width: 5000px) {
+    .hb_login .hb_link_app {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 1600px) and (max-device-width: 1800px) {
+    .hb_login .hb_link_app {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 1536px) and (min-device-width: 1440px) {
+    .hb_login .hb_link_app {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+    .hb_login .hb_link_app {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1199px) {
+    .hb_login .hb_link_app {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1119px) and (min-width: 1080px) {
+    hb_login .hb_link_app {
+        display: none;
+    }
+
+    .hb_login_slogan {
+        display: none;
+    }
+
+    .hb_login_left {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .hb_login_images {
+        padding: 0;
+        text-align: center;
+    }
+
+        .hb_login_images img {
+            height: 55px;
+            margin: 0;
+        }
+
+    .hb_login {
+        padding: 0 0 30px;
+        background: transparent;
+    }
+
+    .hb_button_news {
+        margin-top: 0;
+    }
+
+    .hb_login_form {
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+        .hb_login_form input {
+            background: #f0f0f0;
+            padding: 10px 16px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+    .hb_button {
+        border-radius: 3px;
+        font-size: 18px;
+        line-height: 45px;
+        padding: 0 15px;
+        margin-top: 0;
+    }
+
+    .hb_hr {
+        margin: 10px 15px;
+    }
+
+    .hb_login_form input:focus {
+        border-color: #1d2129;
+    }
+
+    .hb_button_news a {
+        font-size: 12px;
+    }
+
+    .hb_mess {
+        display: none;
+    }
+
+    #contentCurve, .hb_links_list, .hb_copyright {
+        display: none;
+    }
+
+    .hb_menu_mobile {
+        display: flex;
+    }
+
+    .hb_copyright_mobile {
+        display: block;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .hb_language {
+        display: block;
+        column-count: 2;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .hb_app_mobile {
+        display: block;
+    }
+
+    .hb_login_form {
+        max-width: 416px;
+        margin: 0 auto;
+    }
+
+    .hb_login_left, .hb_login_right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .ib {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1079px) and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .hb_login_slogan {
+        display: none;
+    }
+
+    .hb_login_left {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .hb_login_images {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hb_login {
+        padding: 30px 0;
+        background: transparent;
+    }
+
+    .hb_login_images img {
+        height: 55px;
+        margin: 0;
+    }
+
+    .hb_button_news {
+        margin-top: 0;
+    }
+
+    .hb_login_form {
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .hb_login .hb_link_app {
+        display: none;
+    }
+
+    .hb_login_form input {
+        background: #f0f0f0;
+        padding: 10px 16px;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+    .hb_button {
+        border-radius: 3px;
+        font-size: 18px;
+        line-height: 45px;
+        padding: 0 15px;
+        margin-top: 0;
+    }
+
+    .hb_hr {
+        margin: 10px 15px;
+    }
+
+    .hb_login_form input:focus {
+        border-color: #1d2129;
+    }
+
+    .hb_button_news a {
+        font-size: 12px;
+    }
+
+    .hb_mess {
+        display: none;
+    }
+
+    #contentCurve, .hb_links_list, .hb_copyright {
+        display: none;
+    }
+
+    .hb_menu_mobile {
+        display: flex;
+    }
+
+    .hb_copyright_mobile {
+        display: block;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .hb_language {
+        display: block;
+        column-count: 2;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .ib {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .hb_login_left, .hb_login_right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .hb_login_form {
+        max-width: 416px;
+        margin: 0 auto;
+    }
+
+    .hb_login .hb_link_app {
+        display: none;
+    }
+
+    .hb_login_form input {
+        padding: 12px !important;
+    }
+}
+
+@media screen and (max-device-width: 992px) {
+    .hb_login_slogan {
+        display: none;
+    }
+
+    .hb_login_left {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .hb_login_images {
+        padding: 0;
+        text-align: center;
+    }
+
+        .hb_login_images img {
+            height: 55px;
+            margin: 0;
+        }
+
+    .hb_login {
+        padding: 0 0 30px;
+        background: transparent;
+    }
+
+    .hb_button_news {
+        margin-top: 0;
+    }
+
+    .hb_login_form {
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+        .hb_login_form input {
+            background: #f0f0f0;
+            padding: 10px 16px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .hb_login_form .hb_button {
+            border-radius: 3px;
+            font-size: 18px;
+            line-height: 45px;
+            padding: 0 15px;
+            margin-top: 0;
+        }
+
+    .hb_hr {
+        margin: 10px 15px;
+    }
+
+    .hb_login_form input:focus {
+        border-color: #1d2129;
+    }
+
+    .hb_button_news a {
+        font-size: 12px;
+    }
+
+    .hb_mess {
+        display: none;
+    }
+
+    #contentCurve, .hb_links_list, .hb_copyright {
+        display: none;
+    }
+
+    .hb_menu_mobile {
+        display: flex;
+    }
+
+    .hb_copyright_mobile {
+        display: block;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .hb_language {
+        display: block;
+        column-count: 2;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .hb_app_mobile {
+        display: block;
+    }
+
+    .ib {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+}
+
+@media screen and (max-device-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-device-width: 414px) {
+    .ib {
+        margin-bottom: 20px;
+    }
+
+    .hb_menu_mobile {
+        font-size: 12px;
+    }
+
+    .hb_language {
+        line-height: 2.6;
+    }
+}
+
+@media screen and (max-device-width: 375px) {
+    .hb_language {
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+    .ib {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+}
